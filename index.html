@@ -3,29 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<body class="bgImage">
+<div class="app-info-container">
+  <div class="app-info">
+    <img src="./images/logo.svg" alt="App Title">
+    <div class="buttons" >
+      <button><img src="./images/icon-document.svg" alt="Icon 1"></button>
+      <button><img src="./images/icon-folder.svg" alt="Icon 2"></button>
+      <button><img src="./images/icon-upload.svg" alt="Icon 3"></button>
+    </div>
   </div>
+</div>
+<div class="storage-info-container">
+  <div class="storage-info">
+    <p>You've used 815 GB of your storage</p>
+    <div class="progress-bar">
+      <div class="progress">
+        <span class="dot"></span>
+      </div>
+    </div>
+    <div class="block">
+      <p class="block-info">185 GB LEFT</p>
+    </div>
+  </div>
+</div>
 </body>
+<!--<img src="./images/bg-desktop.png" alt="App Title" class="desktop-background">-->
 </html>
