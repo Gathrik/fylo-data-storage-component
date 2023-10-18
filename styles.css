@@ -29,18 +29,10 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    width: 75%;
-    /*max-width: 400px;*/
-    /*margin: 10px;*/
 }
 
 .app-info-container {
     border-radius: 10px 100px 10px 10px;
-    /*height: 150px*/
-}
-
-.storage-info-container {
-    /*height: 165px;*/
 }
 
 .app-info {
@@ -183,7 +175,7 @@ button:hover {
         width: 20%;
     }
     .storage-info-container {
-        width: 40%;
+        width: 30%;
         position: relative;
     }
     .storage-remaining {
@@ -195,6 +187,7 @@ button:hover {
         margin: 0;
     }
     .storage-info {
+        height: 100px;
         text-align: left;
     }
 }
