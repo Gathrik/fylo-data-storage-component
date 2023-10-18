@@ -11,29 +11,37 @@
   <title>Frontend Mentor | Fylo data storage component</title>
 </head>
 <body class="bgImage">
-<div class="app-info-container">
-  <div class="app-info">
-    <img src="./images/logo.svg" alt="App Title">
-    <div class="buttons" >
-      <button><img src="./images/icon-document.svg" alt="Icon 1"></button>
-      <button><img src="./images/icon-folder.svg" alt="Icon 2"></button>
-      <button><img src="./images/icon-upload.svg" alt="Icon 3"></button>
-    </div>
-  </div>
-</div>
-<div class="storage-info-container">
-  <div class="storage-info">
-    <p>You've used 815 GB of your storage</p>
-    <div class="progress-bar">
-      <div class="progress">
-        <span class="dot"></span>
+<main class="viewport">
+  <div class="main-containers">
+    <div class="app-info-container">
+      <div class="app-info">
+        <img src="./images/logo.svg" alt="App Title">
+        <div class="buttons" >
+          <button><img src="./images/icon-document.svg" alt="Icon 1"></button>
+          <button><img src="./images/icon-folder.svg" alt="Icon 2"></button>
+          <button><img src="./images/icon-upload.svg" alt="Icon 3"></button>
+        </div>
       </div>
     </div>
-    <div class="block">
-      <p class="block-info">185 GB LEFT</p>
+    <div class="storage-info-container">
+      <div class="storage-info">
+        <p>You've used 815 GB of your storage</p>
+        <div class="progress-bar">
+          <div class="progress">
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="storage-range">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+        <div class="storage-remaining">
+          <p class="remaining-info">185</p>
+          <p class="remaining-text">GB LEFT</p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</main>
 </body>
-<!--<img src="./images/bg-desktop.png" alt="App Title" class="desktop-background">-->
 </html>
